@@ -40,7 +40,7 @@ That idea forms the foundation of this project — turning static files into an 
 
 ## 💬 Q&A Output
 
-![Q&A Result](QnA_Result.png)
+![QnA Result](QnA_Result.png)
 
 The system extracts relevant context from the selected document and generates accurate, human-like answers using AI.
 
@@ -93,6 +93,7 @@ Instead of copying sentences, it generates **human-like explanations based on co
 **Manasi Masali**
 
 📧 Email: masalimanasi@gmail.com
+
 💼 LinkedIn: www.linkedin.com/in/manasi-masali  
 
 ---
