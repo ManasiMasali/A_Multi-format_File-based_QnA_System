@@ -1,0 +1,33 @@
+
+FILE: ai_imp.png
+--------------------------------------------------
+Q1: what are 3 types of Artificial intelligence ?
+A1: Artificial Intelligence (Al) refers to technologies that enable computers to perform tasks requiring human-like intelligence, such as seeing, moving, thinking and analyzing_ development involves fields like Computer Science, Psychology; Statistics_ Neuroscience_ and Philosophy: Al in Daily Life: Voice Typing: Converts speech to text (e.g-, apps like Dictate and Otter): Driverless Cars: Al can drive and park cars autonomously Tesla Model X) Smart Homes: Al assists with cleaning, shopping, and entertainment tasks_ YouTube and Online Shopping: Al recommends videos and products based on user preferences Alan Turing; known as the Father of Al, invented the Turing Test which is done distinguish intelligent machines from other machines. Types of Al: Narrow or Weak Al: Specialized in specific tasks, Types Narrow include Thinking recommendation algorithms), Doing Al (e.g-, playing song) Example:
+
+Q2: what is voice typing
+A2: Converts speech to text
+
+Q3: what is ASI?
+A3: A future concept where Al surpasses human intelligence in all fields
+
+
+FILE: Harry_Potter_Summary.pdf
+--------------------------------------------------
+Q1: who tried to kill harry?
+A1: Lord Voldemort
+
+Q2: who were Harry's friends 
+A2: Ron Weasley, a member of a large but poor wizarding family, and Hermione Granger, a witch of non-magical, or Muggle, parentage
+
+Q3: where Harry potter lived?
+A3: in a cupboard under the stairs in the house of the Dursleys
+
+
+FILE: Marie_Curie.txt
+--------------------------------------------------
+Q1: where was she born?
+A1: Warsaw
+
+Q2: what Marie won?
+A2: Nobel Prize in Chemistry
+
