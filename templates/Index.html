@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q&A on Files</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+
+    <h1>Upload Files</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="files" multiple required>
+        <input type="submit" value="Upload">
+    </form>
+
+    {% if files %}
+    <h2>Ask a Question</h2>
+
+    <form action="/ask" method="POST">
+        <label>Select a file:</label>
+
+        <select name="selected_file" required>
+            {% for fname in files %}
+            <option value="{{ fname }}"
+                {% if fname == selected_file %}selected{% endif %}>
+                {{ fname }}
+            </option>
+            {% endfor %}
+        </select>
+
+        <label>Your Question:</label>
+        <input type="text" name="question" required>
+
+        <input type="submit" value="Get Answer">
+    </form>
+    {% endif %}
+
+    {% if qa_results %}
+    <h2>Q&A Results</h2>
+
+    {% for fname, qas in qa_results.items() %}
+    <div class="qa-block">
+        <h3>{{ fname }}</h3>
+
+        {% for qa in qas %}
+        <p><b>Q:</b> {{ qa.question }}</p>
+        <p><b>A:</b> {{ qa.answer }}</p>
+        <hr>
+        {% endfor %}
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <form action="/download">
+        <button>Download Q&A Session</button>
+    </form>
+
+</div>
+</body>
+</html>

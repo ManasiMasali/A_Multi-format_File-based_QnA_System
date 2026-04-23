@@ -1,0 +1,4 @@
+genai/
+__pycache__/
+*.pyc
+uploads/
