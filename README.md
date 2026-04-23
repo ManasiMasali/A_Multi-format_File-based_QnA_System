@@ -40,7 +40,7 @@ That idea forms the foundation of this project — turning static files into an 
 
 ## 💬 Q&A Output
 
-![QnA Result](QnA_Result.png)
+![Q&A Result](QnA_Result.txt)
 
 The system extracts relevant context from the selected document and generates accurate, human-like answers using AI.
 
